@@ -16,7 +16,7 @@ Open 127.0.0.1:5000 in the web browser
 2. Enter `' OR 1=1 OR 1='` in password
 3. Click Login
 4. The browser returns the information for all users in the database
-##XSS attack
+## XSS attack
 1. Enter `<script>alert("XSS success!")</script>` in username
 2. Enter `pw` in password
 3. Click Login
