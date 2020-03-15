@@ -25,5 +25,6 @@ XSS attacks enable attackers to inject client-side scripts into web pages viewed
 4. The browser would run the javascript defined in #1
 ## References
 https://en.wikipedia.org/wiki/Cross-site_scripting
+
 https://en.wikipedia.org/wiki/SQL_injection
 
