@@ -1,5 +1,5 @@
 # CS9163-Assignment2
-##Description
+## Description
 This program returns user information stored in the database after authentication.
 ## Requirements
 `pip install flask`
