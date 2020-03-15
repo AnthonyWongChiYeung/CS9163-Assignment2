@@ -4,7 +4,7 @@ This program returns user information stored in the database after authenticatio
 ## Requirements
 `pip install flask`
 ## Initialization
-`export FLASK_APP=run.py`\
+`export FLASK_APP=app.py`\
 `flask run`\
 Open 127.0.0.1:5000 in the web browser
 ## Running the program
