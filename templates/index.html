@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SQLi and XSS</title>
+</head>
+<body>
+    <form method="POST">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username"
+               name="uname" {% if user_name %} value="{{user_name}}" {% endif %} required>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <button type="submit">Login</button>
+    </form>
+    {% autoescape false %}
+    {% if user_name %}
+    Password is not correct for user: {{user_name}}
+    {% endif %}
+    {% endautoescape %}
+</body>
+</html>
